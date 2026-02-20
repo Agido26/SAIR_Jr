@@ -47,8 +47,6 @@ This module is structured in progressive phases:
 | **`1_PyTorch_Fundamentals/2_DataLoader.ipynb`** | Dataset classes, DataLoader optimization, performance |
 | **`2_Vision_and_CNN/3_CNN.ipynb`** | Convolutional Neural Networks from scratch |
 | **`2_Vision_and_CNN/4_Transfer_and_ResNet.ipynb`** | Transfer learning, ResNet, pretrained models |
-| **`2_Vision_and_CNN/5_Modern_Vision.ipynb`** | Modern architectures and vision transformers |
-    Same Lecture, split into 3 parts for depth and clarity:
 | **`2_Vision_and_CNN/5A.ipynb`**, **`5B.ipynb`**, **`5C.ipynb`** | Advanced vision concepts and experiments |
 
 ---
@@ -72,13 +70,13 @@ The `Demos/` directory contains ready-to-run applications:
 
 | Demo | File | Description |
 |------|------|-------------|
-| **Live Detection** | `demo_01_live_detection.py` | Real-time object detection with webcam |
+| **Live Detection** | `demo_01_live_detection.py`         | Real-time object detection with webcam |
 | **Background Removal** | `demo_02_background_removal.py` | Remove backgrounds using segmentation |
-| **Pose Estimation** | `demo_03_pose_estimation.py` | Human pose estimation in real-time |
-| **Gesture Control** | `demo_04_gesture_control.py` | Control applications with hand gestures |
-| **Model Comparison** | `demo_05_model_comparison.py` | Compare YOLOv8n/s/m performance |
-| **Batch Processing** | `demo_06_batch_processing.py` | Process multiple images efficiently |
-| **Video Processing** | `demo_07_video_processing.py` | Object detection on video files |
+| **Pose Estimation** | `demo_03_pose_estimation.py`       | Human pose estimation in real-time |
+| **Gesture Control** | `demo_04_gesture_control.py`       | Control applications with hand gestures |
+| **Model Comparison** | `demo_05_model_comparison.py`     | Compare YOLOv8n/s/m performance |
+| **Batch Processing** | `demo_06_batch_processing.py`     | Process multiple images efficiently |
+| **Video Processing** | `demo_07_video_processing.py`     | Object detection on video files |
 
 **Quick Start:**
 ```bash
@@ -136,7 +134,6 @@ The COCO128 dataset is a mini version of COCO with 128 images, perfect for:
 ├── 2_Vision_and_CNN/
 │   ├── 3_CNN.ipynb
 │   ├── 4_Transfer_and_ResNet.ipynb
-│   ├── 5_Modern_Vision.ipynb
 │   ├── 5A.ipynb, 5B.ipynb, 5C.ipynb
 │   └── labs/
 │       ├── lab_3.ipynb
@@ -186,19 +183,19 @@ The COCO128 dataset is a mini version of COCO with 128 images, perfect for:
 
 ## 🚀 Learning Pathway
 
-### **Phase 1: Foundations** (Week 1)
+### **Phase 1: Foundations** (Week 1 - 2)
 1. `1_PyTorch_Fundamentals/1_Intro.ipynb` – Tensor operations & autograd
 2. Complete `labs/lab_1.ipynb`
 3. `1_PyTorch_Fundamentals/2_DataLoader.ipynb` – Data pipelines
 4. Complete `labs/lab_2.ipynb`
 
-### **Phase 2: Computer Vision** (Week 2)
+### **Phase 2: Computer Vision** (Week 3)
 1. `2_Vision_and_CNN/3_CNN.ipynb` – Build CNNs from scratch
 2. Complete `labs/lab_3.ipynb`
 3. `2_Vision_and_CNN/4_Transfer_and_ResNet.ipynb` – Transfer learning
 4. Complete `labs/lab_4.ipynb`
 
-### **Phase 3: Modern Vision** (Week 3)
+### **Phase 3: Modern Vision** (Week 4)
 1. `2_Vision_and_CNN/5_Modern_Vision.ipynb` – Modern architectures
 2. Explore `5A.ipynb`, `5B.ipynb`, `5C.ipynb` for advanced topics
 3. Read AlexNet and ResNet papers
